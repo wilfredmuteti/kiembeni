@@ -22,11 +22,11 @@ const Navbar = () => {
           <Link to ="/" className="link"><span>Home</span></Link>
           <Link to ="/analytics" className="link"><span>Analytics</span></Link>
           <Link to ="/transactions" className="link"><span>Transactions</span></Link>
+          <Link to ="/reports" className="link"><span>Reports</span></Link>
           <Link to ="/explore" className="link"><span>Explore</span></Link>
           <Link to ="/staff" className="link"><span>Staff</span></Link>
           <Link to ="/services" className="link"><span>Services</span></Link>
           <Link to ="/mail" className="link"><span>Mail</span></Link>
-          <Link to ="/reports" className="link"><span>Reports</span></Link>
           <Link to ="/shop" className="link"><span>Shop</span></Link>
         
         </div>
