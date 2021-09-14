@@ -1,0 +1,69 @@
+
+.expensecard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .expenseItem {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    cursor: pointer;
+    
+  }
+  .expenseItemf{
+    width: 50%;
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    cursor: pointer;
+  }
+  
+  .expenseTitle{
+      font-size: 20px;
+      
+  }
+
+  .expenserow{
+      display: flex;
+      
+  }
+  .financecard{
+    padding-top: 10px;
+      margin: 10px;
+      border-radius: 2px;
+      border: solid;
+      padding:20px;
+  }
+  .expenseMoneyContainer{
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .expenseMoney{
+      font-size: 30px;
+      font-weight: 600;
+  }
+  
+  .expenseMoneyRate{
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+  }
+  
+  .expenseIcon{
+      font-size: 14px;
+      margin-left: 5px;
+      color: green;
+  }
+  
+  .expenseIcon.negative{
+      color: red;
+  }
+  
+  .expenseSub{
+      font-size: 15px;
+      color: gray;
+  }

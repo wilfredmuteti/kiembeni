@@ -1,0 +1,24 @@
+
+:root{
+  --main-color: #fff;
+  
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.maincontainer{
+  margin-top: 4%;
+}
+
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
