@@ -25,7 +25,7 @@ export default function FeaturedInfo() {
         <span className="featuredfSub">Long Rains Expected</span>
       </div>
       <div className="featuredfItem">
-        <span className="featuredfTitle">Projected Harvet Window</span>
+        <span className="featuredfTitle">Projected Harvest Window</span>
         <div className="featuredfMoneyContainer">
           <span className="featuredfMoney">Dec 20th - Jan 5th</span>
           <span className="featuredfMoneyRate">
